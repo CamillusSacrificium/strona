@@ -1,0 +1,89 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("gallery/back.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 100vh;
+}
+header{
+    background-image: url("gallery/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: right;
+}
+footer{
+    background-color: rgb(22, 22, 22);
+    color: ghostwhite;
+}
+main{
+    min-height: 85vh;
+    background-color: ghostwhite;
+}
+nav{
+    color: ghostwhite;
+}
+.CC{
+    color: ghostwhite;
+    text-decoration-color: rgb(139, 0, 0);
+}
+.CC:hover{
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+.art{
+    padding: 15px 15px 15px 15px;
+}
+.tabela{
+    border: black solid 3px;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+    background-color: gainsboro;
+}
+.tabela p{
+    margin: 10px 0 0 0;
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+.tabela ul li{
+    border-bottom: 1px solid rgb(183, 182, 182);
+    transform: translateX(-15px);
+    text-align: center;
+}
+section a{
+    color: black;
+    text-decoration-color: rgb(139, 0, 0);
+}
+section a:hover{
+    color: rgb(139, 0, 0);
+    text-decoration: none;
+}
+li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li span{
+    font-style: italic;
+    font-size: 13px;
+}
+.title{
+    margin: 15px 0px 15px 0px;
+}
+.welcom{
+    font-weight: bold;
+    text-align: center;
+}
+p.welcom{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+*{
+    min-height: 30px;
+}
